@@ -1,0 +1,547 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  color: wheat;
+  width: 100%;
+}
+header .header-section {
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+header .header-section .logo-section a img {
+  width: 100%;
+  height: 150px;
+}
+header .header-section .menu-bar {
+  width: 80%;
+}
+header .header-section .menu-bar ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+header .header-section .menu-bar ul li a {
+  text-decoration: none;
+}
+
+.content-vr-headsets {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+}
+.content-vr-headsets .content-vr-headsets-info {
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.content-vr-headsets .content-vr-headsets-info .content-vr-headsets-info-border {
+  width: 20%;
+  margin: 0 auto;
+}
+.content-vr-headsets .content-vr-headsets-info .content-vr-headsets-info-border hr {
+  border: 3px solid #654AFF;
+}
+.content-vr-headsets .content-vr-headsets-info .content-vr-headsets-info-title {
+  margin: 5px 6px 273px 198px;
+}
+.content-vr-headsets .content-vr-headsets-info .content-vr-headsets-info-title h2 {
+  color: #654AFF;
+  font-size: 60px;
+  font: weight normal;
+}
+.content-vr-headsets .content-vr-headsets-info .content-vr-headsets-info-paragraph {
+  width: 45%;
+  margin: -276px 20px 0 150px;
+}
+.content-vr-headsets .content-vr-headsets-info .content-vr-headsets-info-paragraph p {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.content-vr-headsets .content-vr-headsets-info .content-vr-headsets-info-link {
+  font-size: 18px;
+  margin: -80x -20px 0 0px;
+}
+.content-vr-headsets .content-vr-headsets-info .content-vr-headsets-info-link a {
+  color: black;
+  font-size: 22px;
+}
+.content-vr-headsets .content-vr-headsets-info .content-vr-headsets-info-link a:hover {
+  text-decoration: none;
+}
+.content-vr-headsets .content-vr-headsets-info .content-vr-headsets-info-button {
+  margin: 0;
+}
+.content-vr-headsets .content-vr-headsets-info .content-vr-headsets-info-button button {
+  font-size: 20px;
+  padding: 15px 35px;
+  background: #654AFF;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.content-vr-headsets .content-vr-headsets-info .content-vr-headsets-info-button button:hover {
+  margin: 0;
+  color: black;
+  background: white;
+  border: 0.5px solid grey;
+}
+.content-vr-headsets .content-vr-headsets-img img {
+  width: 750px;
+}
+
+.section-vr-benefits {
+  background-color: #654AFF;
+  padding-bottom: 100px;
+}
+.section-vr-benefits a {
+  text-decoration: none;
+}
+.section-vr-benefits .vr-benefits-heading {
+  color: #ffffff;
+  font-size: 30px;
+  margin-top: -4.8px;
+}
+.section-vr-benefits .vr-benefits-heading .vr-benefits-heading-txt {
+  margin: 0 auto;
+  width: 800px;
+  padding: 70px 0;
+}
+.section-vr-benefits .vr-benefits-heading .vr-benefits-heading-txt h2 {
+  text-align: center;
+  padding: 20px 0;
+}
+.section-vr-benefits .vr-benefits-heading .vr-benefits-heading-txt span {
+  font-size: 20px;
+}
+.section-vr-benefits .section-vr-benefits-icon {
+  display: flex;
+  justify-content: space-around;
+}
+.section-vr-benefits .section-vr-benefits-icon .section-vr-benefits-icon-one {
+  height: 380px;
+  width: 330px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.section-vr-benefits .section-vr-benefits-icon .section-vr-benefits-icon-one .section-vr-benefits-icon-one-1 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #F0EDFF;
+  margin: -45px auto;
+}
+.section-vr-benefits .section-vr-benefits-icon .section-vr-benefits-icon-one .section-vr-benefits-icon-one-1 .icon-1 {
+  font-size: 65px;
+  color: #654AFF;
+  margin: 20px;
+}
+.section-vr-benefits .section-vr-benefits-icon .section-vr-benefits-icon-two {
+  height: 380px;
+  width: 330px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.section-vr-benefits .section-vr-benefits-icon .section-vr-benefits-icon-two .section-vr-benefits-icon-one-1 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #F0EDFF;
+  margin: -45px auto;
+}
+.section-vr-benefits .section-vr-benefits-icon .section-vr-benefits-icon-two .section-vr-benefits-icon-one-1 .icon-1 {
+  font-size: 65px;
+  color: #654AFF;
+  margin: 25px;
+}
+.section-vr-benefits .section-vr-benefits-icon .section-vr-benefits-icon-three {
+  height: 380px;
+  width: 330px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.section-vr-benefits .section-vr-benefits-icon .section-vr-benefits-icon-three .section-vr-benefits-icon-one-1 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #F0EDFF;
+  margin: -45px auto;
+}
+.section-vr-benefits .section-vr-benefits-icon .section-vr-benefits-icon-three .section-vr-benefits-icon-one-1 .icon-1 {
+  font-size: 65px;
+  color: #654AFF;
+  margin: 15px;
+}
+.section-vr-benefits .section-vr-benefits-icon h2 {
+  color: #654AFF;
+  text-align: center;
+  margin-top: 80px;
+}
+.section-vr-benefits .section-vr-benefits-icon p {
+  font-size: 18px;
+  text-align: center;
+  margin: 20px auto;
+  width: 80%;
+}
+.section-vr-benefits .section-vr-benefits-icon button {
+  padding: 15px 40px;
+  background-color: #fff;
+  border: 2px solid #654AFF;
+  margin: 20px 100px;
+}
+.section-vr-benefits .section-vr-benefits-icon button:hover {
+  border: 2px solid gray;
+}
+
+.section-vr-technology {
+  display: flex;
+  margin-top: 30px;
+}
+.section-vr-technology .section-vr-technology-img {
+  margin: 30px 0 30px 120px;
+}
+.section-vr-technology .section-vr-technology-img img {
+  width: 450px;
+  height: 650px;
+}
+.section-vr-technology .section-vr-technology-info .section-vr-technology-info-content {
+  margin: 30px 0 0 50px;
+  width: 80%;
+}
+.section-vr-technology .section-vr-technology-info .section-vr-technology-info-content h2 {
+  color: #654AFF;
+  top: 20px;
+  left: 0;
+}
+.section-vr-technology .section-vr-technology-info .section-vr-technology-info-content span {
+  display: block;
+  font-size: 50px;
+  letter-spacing: 10px;
+  font-weight: normal;
+  margin: 20px 0;
+}
+.section-vr-technology .section-vr-technology-info .section-vr-technology-info-content p {
+  margin: 20px 0;
+  font-size: 17px;
+  line-height: 25px;
+}
+.section-vr-technology .section-vr-technology-info .section-vr-technology-info-content hr {
+  border: 1px solid #e1e0e7;
+  margin: 40px 0;
+}
+.section-vr-technology .section-vr-technology-info .section-vr-technology-info-content-icon {
+  margin: 20px 50px 0;
+}
+.section-vr-technology .section-vr-technology-info .section-vr-technology-info-content-icon .section-vr-technology-info-content-icon-blocks-one {
+  display: flex;
+  margin: 60px 0;
+}
+.section-vr-technology .section-vr-technology-info .section-vr-technology-info-content-icon .section-vr-technology-info-content-icon-blocks-one p {
+  font-size: 17px;
+  inline-size: 300px;
+  margin: 1px 20px;
+  line-height: 25px;
+}
+.section-vr-technology .section-vr-technology-info .section-vr-technology-info-content-icon .section-vr-technology-info-content-icon-blocks-one .section-vr-technology-info-content-icon-blocks-one-radius {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #F0EDFF;
+  position: relative;
+}
+.section-vr-technology .section-vr-technology-info .section-vr-technology-info-content-icon .section-vr-technology-info-content-icon-blocks-one .section-vr-technology-info-content-icon-blocks-one-radius span {
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #654AFF;
+}
+
+.section-surprising-benefits {
+  background-color: #E5E5E5;
+}
+.section-surprising-benefits .section-surprising-benefits-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 60px 0;
+}
+.section-surprising-benefits .section-surprising-benefits-container .section-surprising-benefits-container-heading {
+  text-align: center;
+  padding: 20px 5px 30px;
+}
+.section-surprising-benefits .section-surprising-benefits-container .section-surprising-benefits-container-heading h2 {
+  color: #654AFF;
+  font-size: 55px;
+}
+.section-surprising-benefits .section-surprising-benefits-container .section-surprising-benefits-container-heading p {
+  margin: 15px;
+  font-size: 26px;
+}
+.section-surprising-benefits .section-surprising-benefits-container .section-surprising-benefits-container-1 {
+  background-color: #F2F2F2;
+  border: 1px solid #F2F2F2;
+  letter-spacing: 1px;
+  padding: 30px;
+  position: relative;
+}
+.section-surprising-benefits .section-surprising-benefits-container .section-surprising-benefits-container-1 h1 {
+  font-size: 100px;
+  color: #654AFF;
+  font-weight: 100;
+}
+.section-surprising-benefits .section-surprising-benefits-container .section-surprising-benefits-container-1 span {
+  display: block;
+  position: absolute;
+  left: 110px;
+  top: 50px;
+  font-size: 17px;
+  line-height: 1.5;
+}
+.section-surprising-benefits .section-surprising-benefits-container .section-surprising-benefits-container-2 {
+  background-color: #fff;
+  letter-spacing: 1px;
+  padding: 30px;
+  position: relative;
+  margin: 10px 0;
+}
+.section-surprising-benefits .section-surprising-benefits-container .section-surprising-benefits-container-2 h1 {
+  font-size: 100px;
+  color: #654AFF;
+  font-weight: 100;
+}
+.section-surprising-benefits .section-surprising-benefits-container .section-surprising-benefits-container-2 span {
+  display: block;
+  position: absolute;
+  left: 110px;
+  top: 50px;
+  font-size: 17px;
+  line-height: 1.5;
+}
+.section-surprising-benefits .section-surprising-benefits-container .section-surprising-benefits-container-3 {
+  background-color: #654AFF;
+  color: #fff;
+  border: 1px solid #F2F2F2;
+  letter-spacing: 1px;
+  padding: 30px;
+  position: relative;
+}
+.section-surprising-benefits .section-surprising-benefits-container .section-surprising-benefits-container-3 h1 {
+  font-size: 100px;
+  font-weight: 100;
+}
+.section-surprising-benefits .section-surprising-benefits-container .section-surprising-benefits-container-3 span {
+  display: block;
+  position: absolute;
+  left: 110px;
+  top: 50px;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.section-vr-bad-brain .section-surprising-benefits-container {
+  max-width: 1000px;
+  margin: 10px auto;
+  padding: 60px 0;
+}
+.section-vr-bad-brain .section-surprising-benefits-container .section-vr-bad-brain-content {
+  display: flex;
+}
+.section-vr-bad-brain .section-surprising-benefits-container .section-vr-bad-brain-content .section-vr-bad-brain-content-info {
+  width: 80%;
+  margin: 70px 0 0 0;
+}
+.section-vr-bad-brain .section-surprising-benefits-container .section-vr-bad-brain-content .section-vr-bad-brain-content-info .section-vr-bad-brain-content-info-icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #e1e0e7;
+  position: relative;
+}
+.section-vr-bad-brain .section-surprising-benefits-container .section-vr-bad-brain-content .section-vr-bad-brain-content-info .section-vr-bad-brain-content-info-icon span {
+  color: #654AFF;
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.section-vr-bad-brain .section-surprising-benefits-container .section-vr-bad-brain-content .section-vr-bad-brain-content-info h2 {
+  letter-spacing: 11px;
+  font-size: 17px;
+  margin: 30px 0;
+}
+.section-vr-bad-brain .section-surprising-benefits-container .section-vr-bad-brain-content .section-vr-bad-brain-content-info p {
+  font-size: 17px;
+}
+.section-vr-bad-brain .section-surprising-benefits-container .section-vr-bad-brain-content .section-vr-bad-brain-content-info .section-vr-bad-brain-content-info-bold-text {
+  font-size: 20px;
+  margin: 30px 0;
+}
+.section-vr-bad-brain .section-surprising-benefits-container .section-vr-bad-brain-content .section-vr-bad-brain-content-info span {
+  font-size: 17px;
+}
+.section-vr-bad-brain .section-surprising-benefits-container .section-vr-bad-brain-content .section-vr-bad-brain-content-info span a:hover {
+  text-decoration: none;
+}
+.section-vr-bad-brain .section-surprising-benefits-container .section-vr-bad-brain-content .section-vr-bad-brain-content-info ul {
+  margin: 30px 0;
+}
+.section-vr-bad-brain .section-surprising-benefits-container .section-vr-bad-brain-content .section-vr-bad-brain-content-info ul button {
+  padding: 20px 40px;
+  background-color: #fff;
+  border: 2px solid #654AFF;
+  font-size: 17.4px;
+}
+.section-vr-bad-brain .section-surprising-benefits-container .section-vr-bad-brain-content .section-vr-bad-brain-content-info ul button:hover {
+  border: 2px solid #e1e0e7;
+}
+.section-vr-bad-brain .section-surprising-benefits-container .section-vr-bad-brain-content .section-vr-bad-brain-content-img {
+  width: 100%;
+  margin: 20px;
+  position: relative;
+}
+.section-vr-bad-brain .section-surprising-benefits-container .section-vr-bad-brain-content .section-vr-bad-brain-content-img img {
+  width: 500px;
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.section-background-technology {
+  height: 700px;
+  width: 100%;
+  background-image: url("..//img/vr-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.section-background-technology .section-background-technology-info {
+  width: 550px;
+  height: 400px;
+  background-color: #fff;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  padding: 50px;
+}
+.section-background-technology .section-background-technology-info h2 {
+  color: #654AFF;
+}
+.section-background-technology .section-background-technology-info p {
+  font-size: 60px;
+  color: #654AFF;
+  letter-spacing: 4px;
+  margin: 15px 0;
+  font-weight: normal;
+}
+.section-background-technology .section-background-technology-info span {
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+.section-background-technology .section-background-technology-info span a {
+  color: #000000;
+}
+.section-background-technology .section-background-technology-info span a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #654AFF;
+}
+.section-background-technology .section-background-technology-info ul {
+  font-size: 17px;
+  margin: 20px 0;
+}
+.section-background-technology .section-background-technology-info ul button {
+  padding: 15px 40px;
+  background-color: #fff;
+  border: 2px solid #654AFF;
+}
+.section-background-technology .section-background-technology-info ul button:hover {
+  border: 2px solid #e1e0e7;
+}
+
+.section-key {
+  display: flex;
+}
+.section-key .section-key-10 {
+  width: 50%;
+  padding: 80px;
+}
+.section-key .section-key-10 h2 {
+  color: #654AFF;
+  font-size: 45px;
+}
+.section-key .section-key-10 p {
+  font-size: 17px;
+  line-height: 30px;
+  margin: 30px 0;
+}
+.section-key .section-key-10 span {
+  font-size: 40px;
+  color: #654AFF;
+  margin-top: 8px;
+}
+.section-key .section-key-10 span a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+}
+.section-key .section-key-10 span a:hover {
+  color: #654AFF;
+}
+.section-key .section-key-gaming {
+  width: 50%;
+  padding: 80px 0 30px;
+}
+.section-key .section-key-gaming h2 {
+  color: #654AFF;
+  font-size: 70px;
+  font-weight: normal;
+  line-height: 70px;
+  letter-spacing: 2px;
+}
+.section-key .section-key-gaming p {
+  font-size: 18px;
+  margin: 20px 0;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+
+.section-footer {
+  height: 400px;
+  background-color: #654AFF;
+  color: #fff;
+}
+.section-footer .section-footer-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 100px 0;
+  color: #fff;
+}
+.section-footer .section-footer-container h2 {
+  font-size: 50px;
+  letter-spacing: 15px;
+  font-weight: normal;
+}
+.section-footer .section-footer-container .section-footer-container-social {
+  font-size: 35px;
+}
+.section-footer .section-footer-container .section-footer-container-social i {
+  margin: 20px 20px;
+  border: none;
+}
+.section-footer .section-footer-container .section-footer-container-border {
+  border-bottom: 10px solid #fff;
+  width: 100px;
+  margin: 20px 150px;
+}/*# sourceMappingURL=main.css.map */
